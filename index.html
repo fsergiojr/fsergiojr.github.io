@@ -1,0 +1,185 @@
+<html>
+
+<head>
+    <style>
+        h2 {
+            color: brown;
+            margin-top: 60px;
+            margin-bottom: 2px;
+        }
+
+        .flex-container {
+            display: flex;
+        }
+
+        .flex-child {
+            flex: 1;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>POC Localtest Me</h1>
+
+    <h2>GeoRestriction [Sweeden] - Should NOT Display (n9hc9nydyxun7f)</h2>
+    <div class="flex-container">
+        <div class="flex-child">
+            <h3>Script Embed</h3>
+            <div style="width:640px; height:360px;">
+                <script src="http://publish.viostream.localtest.me/player/n9hc9nydyxun7f">
+                </script>
+            </div>
+        </div>
+        <div class="flex-child">
+            <h3>iFrame Embed</h3>
+            <iframe style="width:640px; height:360px; border:none; overflow: hidden"
+                src="http://publish.viostream.localtest.me/player/iframe/n9hc9nydyxun7f" webkitallowfullscreen
+                mozallowfullscreen allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <h2>GeoRestriction [Localhost and Australia] - Should Display (n9hc9nydyxun6r)</h2>
+    <div class="flex-container">
+        <div class="flex-child">
+            <h3>Script Embed</h3>
+            <div style="width:640px; height:360px;">
+                <script src="http://publish.viostream.localtest.me/player/n9hc9nydyxun6r">
+                </script>
+            </div>
+        </div>
+        <div class="flex-child">
+            <h3>iFrame Embed</h3>
+            <iframe style="width:640px; height:360px; border:none; overflow: hidden"
+                src="http://publish.viostream.localtest.me/player/iframe/n9hc9nydyxun6r" webkitallowfullscreen
+                mozallowfullscreen allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <h2>IP[113.29.245.226] - Should NOT Display (n9hc9nydyxt18k)</h2>
+    <div class="flex-container">
+        <div class="flex-child">
+            <h3>Script Embed</h3>
+            <div style="width:640px; height:360px;">
+                <script src="http://publish.viostream.localtest.me/player/n9hc9nydyxt18k">
+                </script>
+            </div>
+        </div>
+        <div class="flex-child">
+            <h3>iFrame Embed</h3>
+            <iframe style="width:640px; height:360px; border:none; overflow: hidden"
+                src="http://publish.viostream.localtest.me/player/iframe/n9hc9nydyxt18k" webkitallowfullscreen
+                mozallowfullscreen allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <h2>IpRestricted [127.0.0.1] - Should Display (n9hc9nydyxt1fz)</h2>
+    <div class="flex-container">
+        <div class="flex-child">
+            <h3>Script Embed</h3>
+            <div style="width:640px; height:360px;">
+                <script src="http://publish.viostream.localtest.me/player/n9hc9nydyxt1fz">
+                </script>
+            </div>
+        </div>
+        <div class="flex-child">
+            <h3>iFrame Embed</h3>
+            <iframe style="width:640px; height:360px; border:none; overflow: hidden"
+                src="http://publish.viostream.localtest.me/player/iframe/n9hc9nydyxt1fz" webkitallowfullscreen
+                mozallowfullscreen allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <h2>DomainRestricted [myato.tv.ato.gov.au] - Should NOT Display (n9hc9nydyxt1rr)</h2>
+    <div class="flex-container">
+        <div class="flex-child">
+            <h3>Script Embed</h3>
+            <div style="width:640px; height:360px;">
+                <script src="http://publish.viostream.localtest.me/player/n9hc9nydyxt1rr">
+                </script>
+            </div>
+        </div>
+        <div class="flex-child">
+            <h3>iFrame Embed</h3>
+            <iframe style="width:640px; height:360px; border:none; overflow: hidden"
+                src="http://publish.viostream.localtest.me/player/iframe/n9hc9nydyxt1rr" webkitallowfullscreen
+                mozallowfullscreen allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <h2>JW6 Redirect - DomainRestricted [myato.tv.ato.gov.au] - Should NOT Display (n9hc9nydyxt1rr)</h2>
+    <div class="flex-container">
+        <div class="flex-child">
+            <h3>Script Embed</h3>
+            <div style="width:640px; height:360px;">
+                <script src="https://publish.app.dev1.viostream.io/embed/n9hc9nydyxt1rr"></script>
+                </script>
+            </div>
+        </div>
+        <div class="flex-child">
+            <h3>iFrame Embed</h3>
+            <iframe style="width:640px; height:360px; border:none; overflow: hidden" 
+            src="https://publish.app.dev1.viostream.io/embed/player?key=n9hc9nydyxt1rr&width=640&height=360" 
+            webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <h2>DomainRestricted [poc.localtest.me] - Should Display (n9hc9nydyjswan)</h2>
+    <div class="flex-container">
+        <div class="flex-child">
+            <h3>Script Embed</h3>
+            <div style="width:640px; height:360px;">
+                <script src="http://publish.viostream.localtest.me/player/n9hc9nydyjswan">
+                </script>
+            </div>
+        </div>
+        <div class="flex-child">
+            <h3>iFrame Embed</h3>
+            <iframe style="width:640px; height:360px; border:none; overflow: hidden"
+                src="http://publish.viostream.localtest.me/player/iframe/n9hc9nydyjswan" webkitallowfullscreen
+                mozallowfullscreen allowfullscreen></iframe>
+        </div>
+    </div> -->
+
+    <h2>JW6 Redirect - DomainRestricted [poc.localtest.me] - Should Display (n9hc9nydyjswan)</h2>
+    <div class="flex-container">
+        <div class="flex-child">
+            <h3>Script Embed</h3>
+            <div style="width:640px; height:360px;">
+                <script src="https://publish.app.dev1.viostream.io/embed/n9hc9nydyjswan"></script>
+                </script>
+            </div>
+        </div>
+        <div class="flex-child">
+            <h3>iFrame Embed</h3>
+            <iframe style="width:640px; height:360px; border:none; overflow: hidden" 
+            src="https://publish.app.dev1.viostream.io/embed/player?key=n9hc9nydyjswan&width=640&height=360" 
+            webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <h2>NotRestricted (n9hc9nydynbtop)</h2>
+    <div class="flex-container">
+        <div class="flex-child">
+            <h3>Script Embed</h3>
+            <div style="width:640px; height:360px;">
+                <script src="http://publish.viostream.localtest.me/player/n9hc9nydynbtop">
+                </script>
+            </div>
+        </div>
+        <div class="flex-child">
+            <h3>iFrame Embed</h3>
+            <iframe style="width:640px; height:360px; border:none; overflow: hidden"
+                src="http://publish.viostream.localtest.me/player/iframe/n9hc9nydynbtop" webkitallowfullscreen
+                mozallowfullscreen allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <h2>Channel Embed</h2>
+    <div class="flex-child">
+        <script src="http://publish.viostream.localtest.me/player/c-dyoofzz"></script>
+    </div>
+
+</body>
+
+</html>
