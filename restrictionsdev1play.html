@@ -41,7 +41,29 @@
 
     <h1>PLAY Dev1 - Restrictions Examples</h1>
 
-    <h2>GeoRestriction [Sweden] - Should NOT Display (niwrgryddtcfkh)</h2>
+    <h2>Domain whitelist [github page] - Should Display with password(n986wjrdwoncco)</h2>
+    <div class="flex-container">
+        <div class="flex-child">
+            <h3>Script Embed</h3>
+            <div class="player-dimensions" >
+                <script src="https://play.dev1.viostream.io/embed/n986wjrdwoncco">
+                </script>
+            </div>
+        </div>
+        <div class="flex-child">
+            <h3>iFrame Embed</h3>
+            <iframe class="player-dimensions" style="border:none; overflow: hidden"
+                src="https://play.dev1.viostream.io/iframe/n986wjrdwoncco" webkitallowfullscreen
+                mozallowfullscreen allowfullscreen></iframe>
+        </div>
+        <div class="flex-child">
+            <h3>ApiEmbed</h3>
+            <div id="r-geo" class="player-dimensions"></div>
+            <script type="text/javascript">$viostream.embed('n986wjrdwoncco','r-geo')</script>
+        </div>
+    </div>
+
+    <!-- <h2>GeoRestriction [Sweden] - Should NOT Display (niwrgryddtcfkh)</h2>
     <div class="flex-container">
         <div class="flex-child">
             <h3>Script Embed</h3>
@@ -220,7 +242,7 @@
     <h2>Channel Embed</h2>
     <div class="flex-child">
         <script src="https://play.dev1.viostream.io/embed/c-djgn7f5"></script>
-    </div>
+    </div> -->
 
 </body>
 
